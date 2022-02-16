@@ -56,7 +56,7 @@ class Resnet18(nn.Module):
     def __init__(self) -> None:
         super().__init__()
         self.model = torchvision.models.resnet18(pretrained=False)
-        self.fc = nn.Linear(1000,2)
+        self.fc1 = nn.Linear(1000,2)
         
         self.model_weight_path = "model_weights/resnet18-5c106cde.pth"
         
@@ -65,7 +65,7 @@ class Resnet18(nn.Module):
     def forward(self,x):
         x = self.model(x)
         x = nn.ReLU()(x)
-        x = self.fc(x)
+        x = self.fc1(x)
         x = nn.ReLU()(x)
         return x
 

@@ -31,12 +31,14 @@ python main.py -M 1 -L 1
 python main.py -M 2 --test
 ```
 ## Pretrained model
+下载训练好的模型放在`./model_weights`下
 | Model | Download |
 | ---     | ---   |
-| Model-RNN | [download]() |
-| Model-LNN | [download]() |
-| Model-Resnet18 | [download]() |
-下载训练好的模型放在`./model_weights`下
+| Model-RNN | [download](https://github.com/learner-lu/pytorch-dataset-learning/releases/download/V1.0.0/NeuralNetwork_conv.pth) |
+| Model-LNN | [download](https://github.com/learner-lu/pytorch-dataset-learning/releases/download/V1.0.0/NeuralNetwork_linear.pth) |
+| Model-Resnet18 | [download](https://github.com/learner-lu/pytorch-dataset-learning/releases/download/V1.0.0/Resnet18.pth) |
+
+
 ## Directory Hierarchy
 ```
 |—— create_h5py.py
