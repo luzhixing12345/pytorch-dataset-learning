@@ -43,9 +43,9 @@ python main.py -M 2 --test
 ```
 |—— create_h5py.py
 |—— dataset.py
-|—— dif-transform.py
+|—— dif-transform.py     # 多种transform 操作
 |—— main.py
-|—— model.py
+|—— model.py             # 模型位置
 |—— model_weights
 |    |—— 模型保存在这里
 |    |—— 下载的模型也放在这里
