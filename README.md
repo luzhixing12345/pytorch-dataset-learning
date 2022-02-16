@@ -26,7 +26,7 @@ python main.py
 ```python
 python main.py -M 1 -L 1
 ```
-使用`Resnet18`且测试
+使用`Resnet18`且只测试
 ```python
 python main.py -M 2 --test
 ```
