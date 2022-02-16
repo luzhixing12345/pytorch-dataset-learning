@@ -1,6 +1,6 @@
 pytorch中的数据集的制作与使用
 ===
-本项目为[知乎文章]()的代码实现,如有疑问可留issue
+本项目为[知乎文章](https://zhuanlan.zhihu.com/p/466699075)的代码实现,如有疑问可留issue
 
 ## Install & Dependence
 - python = 3.7
@@ -11,7 +11,7 @@ pytorch中的数据集的制作与使用
 - h5py 
 
 ## Dataset Preparation
-所有图片都在`test-set`,`training-set`之中，`test.hdf5`,`train.hdf5`为压缩数据集
+所有图片都在`test-set`,`training-set`之中，`test.hdf5`,`train.hdf5`为压缩数据集，运行即可自动生成
 
 ## Use
 基本用法：
